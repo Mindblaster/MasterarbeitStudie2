@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activities.CreateCustomLocationActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vorschau"
+        android:id="@+id/textView5"
+        android:textSize="18dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neuer Ort"
+        android:id="@+id/previewButton"
+        android:drawableTop="@drawable/ic_place_black_24dp"
+        android:textSize="@dimen/button_caption_text_size"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_location_string_deutsch"
+        android:textSize="18dp"
+        android:id="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_weight="0.44">
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/locationName"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.)Vorschau"
+            android:id="@+id/locationAddButton"
+
+            android:background="@android:drawable/btn_default" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.)Ort zur Ortsliste hinzufügen"
+        android:id="@+id/addLocationToListButton"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:drawable/btn_default"/>
+
+
+</LinearLayout>

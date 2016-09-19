@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">MasterarbeitStudie</string>
+    <string name="action_settings">Debugging</string>
+    <string name="info">Fragen, Anmerkungen oder generelles Feedback bitte an folgende E-Mail Adresse: \nRaphael.Koesters@campus.lmu.de</string>
+
+    <string name="location_poll_text">Where where you during the last 45 minutes?</string>
+    <string name="location_poll_text_deutsch">Wo waren Sie in den letzten 45 Minuten?</string>
+    <string name="poll_choice_home_deutsch">Zu Hause</string>
+    <string name="poll_choice_home_english">At Home</string>
+    <string name="poll_choice_work_deutsch">Arbeit</string>
+    <string name="poll_choice_work_english">At Work</string>
+    <string name="poll_choice_school_deutsch">Schule/Uni</string>
+    <string name="poll_choice_school_english">School/Uni</string>
+    <string name="poll_choice_visiting_deutsch">Zu Besuch</string>
+    <string name="poll_choice_visiting_english">Visiting</string>
+    <string name="poll_choice_bar_deutsch">Bar</string>
+    <string name="poll_choice_bar_english">Bar</string>
+    <string name="poll_choice_restaurant_deutsch">Restaurant</string>
+    <string name="poll_choice_restaurant_english">Restaurant</string>
+    <string name="poll_choice_hotel_deutsch">Hotel</string>
+    <string name="poll_choice_hotel_english">Hotel</string>
+    <string name="poll_choice_club_deutsch">Club</string>
+    <string name="poll_choice_club_english">Club</string>
+    <string name="poll_choice_car_deutsch">Im Auto</string>
+    <string name="poll_choice_car_english">Car</string>
+    <string name="poll_choice_bus_deutsch">ÖV</string>
+    <string name="poll_choice_bus_english">public transport</string>
+    <string name="poll_choice_outside_deutsch">Draußen</string>
+    <string name="poll_choice_outside_english">Outside</string>
+    <string name="poll_choice_enroute_deutsch">Unterwegs</string>
+    <string name="poll_choice_enroute_english">en route</string>
+
+
+    <string name="new_location_string_deutsch">Bitte fügen Sie einen Namen für den Ort in das Textfeld ein.  \n
+        Verwenden Sie zunächst die Vorschau und bestätigen Sie anschließend.
+
+    </string>
+    <string name="new_location_string_english">Type in the name of the location in the textfield below and accept with the button!
+    Please make sure, that the name of the location is clea and shorten words when possible.</string>
+
+
+    <string name="privacy_likert_deutsch">
+        Wie würden Sie die Sicherheit ihrer Privatsphäre an dem ausgesuchten Ort einschätzen?
+    </string>
+</resources>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.PollActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location_poll_text_deutsch"
+        android:id="@+id/question"
+        android:textSize="20dp"
+        android:textColor="@color/Black"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_home_black_24dp"
+            android:id="@+id/homeButton"
+            android:text="@string/poll_choice_home_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_work_black_24dp"
+            android:id="@+id/workButton"
+            android:text="@string/poll_choice_work_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_school_black_24dp"
+            android:id="@+id/schoolButton"
+            android:text="@string/poll_choice_school_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_group_black_24dp"
+            android:id="@+id/visitingButton"
+            android:text="@string/poll_choice_visiting_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:background="@android:drawable/btn_default"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_local_bar_black_24dp"
+            android:id="@+id/barButton"
+            android:text="@string/poll_choice_bar_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_restaurant_black_24dp"
+            android:id="@+id/restaurantButton"
+            android:text="@string/poll_choice_restaurant_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_local_hotel_black_24dp"
+            android:id="@+id/hotelButton"
+            android:text="@string/poll_choice_hotel_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_local_play_black_24dp"
+            android:id="@+id/clubButton"
+            android:text="@string/poll_choice_club_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:background="@android:drawable/btn_default"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_time_to_leave_black_24dp"
+            android:id="@+id/carButton"
+            android:text="@string/poll_choice_car_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_directions_bus_black_24dp"
+            android:id="@+id/busButton"
+            android:text="@string/poll_choice_bus_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_nature_people_black_24dp"
+            android:id="@+id/outsideButton"
+            android:text="@string/poll_choice_outside_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_directions_walk_black_24dp"
+            android:id="@+id/enrouteButton"
+            android:text="@string/poll_choice_enroute_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:background="@android:drawable/btn_default"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_place_black_24dp"
+            android:id="@+id/customButton1"
+            android:text="@string/poll_choice_car_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:visibility="invisible"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_place_black_24dp"
+            android:id="@+id/customButton2"
+            android:text="@string/poll_choice_bus_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:visibility="invisible"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_place_black_24dp"
+            android:id="@+id/customButton3"
+            android:text="@string/poll_choice_outside_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:visibility="invisible"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_place_black_24dp"
+            android:id="@+id/customButton4"
+            android:text="Hinzufügen"
+            android:textSize="@dimen/button_caption_text_size"
+            android:visibility="invisible"
+            android:background="@android:drawable/btn_default"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_place_black_24dp"
+            android:id="@+id/customButton5"
+            android:text="@string/poll_choice_car_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:visibility="invisible"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_place_black_24dp"
+            android:id="@+id/customButton6"
+            android:text="@string/poll_choice_bus_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:visibility="invisible"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_place_black_24dp"
+            android:id="@+id/customButton7"
+            android:text="@string/poll_choice_outside_deutsch"
+            android:textSize="@dimen/button_caption_text_size"
+            android:visibility="invisible"
+            android:background="@android:drawable/btn_default"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_add_black_24dp"
+            android:id="@+id/addButton"
+            android:text="Hinzufügen"
+            android:textSize="@dimen/button_caption_text_size"
+            android:onClick="createLocation"
+            android:background="@android:drawable/btn_default"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abbrechen"
+            android:id="@+id/cancelButton"
+            android:background="@android:drawable/btn_default"/>
+
+        <Button
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weiter"
+            android:id="@+id/continueButton"
+            android:background="@android:drawable/btn_default"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

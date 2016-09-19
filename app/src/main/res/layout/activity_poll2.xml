@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Activities.PollActivity2">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/privacy_likert_deutsch"
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:textColor="@color/Black"
+        />
+
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/likertScale"
+        >
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:button="@null"
+            android:drawablePadding="10dp"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="Unsicher"
+            android:textColor="@color/Black"
+            android:textSize="14dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/unsafe"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:button="@null"
+            android:drawablePadding="10dp"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="Eher\n Unsicher"
+            android:textColor="@color/Black"
+            android:textSize="14dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/probablyUnsafe"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:button="@null"
+            android:drawablePadding="10dp"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="Neutral"
+            android:textColor="@color/Black"
+            android:textSize="14dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/neutral"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:button="@null"
+            android:drawablePadding="10dp"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="Eher\n Sicher"
+            android:textColor="@color/Black"
+            android:textSize="14dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/probablySafe"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:button="@null"
+            android:drawablePadding="10dp"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:text="Sicher"
+            android:textColor="@color/Black"
+            android:textSize="14dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/safe"
+            />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Allgemeines Feedback in 240 Zeichen oder weniger:"
+        android:id="@+id/textView3"
+        android:textSize="20dp"
+        android:textColor="@color/Black" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="93dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/feedback"
+        android:layout_gravity="center_horizontal"
+        android:imeOptions="actionDone"
+        android:maxLength="240"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zurück"
+            android:id="@+id/backButton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abbrechen"
+            android:id="@+id/cancelButton2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abschließen"
+            android:id="@+id/applyButton" />
+    </LinearLayout>
+
+</LinearLayout>
